@@ -6,7 +6,8 @@ shinyUI(fluidPage(
   sidebarLayout(
     sidebarPanel(position = "top",
       strong(h3("Installation")),
-      p("shiny is available on CRAN, so you can install it in the usual way from your R console.")
+      p("shiny is available on CRAN, so you can install it in the usual way from your R console."),
+      p(code("install.package(\"shiny\")", style="color:red"))
     ),
     mainPanel(
       # p("p creates a paragraph of text."),
